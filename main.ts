@@ -54,6 +54,9 @@ input.onButtonPressed(Button.B, function () {
             basic.showNumber(game_coins)
             basic.showString("coins")
         }
+        basic.showString("ok leaving game")
+        game2 = 0
+        hand = 0
     }
 })
 input.onGesture(Gesture.Shake, function () {
